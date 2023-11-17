@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Cards</title>
+  <style>
+    body {
+      margin: 0;
+      border: 2px solid red;
+      padding: 10px;
+      font-family: "Roboto";
+    }
+    
+    body .m{
+        position: relative;
+        max-width: 1000px;
+        display: flex;
+      /* justify-content: space-around; */
+      /* align-items: center; */
+      max-width: 962px;
+      margin: auto;
+      background-color: #f0f0f0;
+      border: 2px solid rgb(0, 238, 255);
+      
+      flex-flow: row wrap;
+    }
+    .color-card {
+      width: 100px;
+      height: 150px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+      flex-shrink: 0;
+      margin: 10px;
+    }
+
+    .color-card:hover {
+      transform: scale(1.1);
+    }
+  
+.m img{
+  width: 400px;
+  height:500px;
+}
+
+  </style>
+</head>
+<body>
+     <div class="m">
+  <div class="color-card" style="background-color: #a2a8d3;" onclick="copyColor('background-color: #a2a8d3;')"> </div>
+  <div class="color-card" style="background-color: #e0ffcd;" onclick="copyColor('background-color: #e0ffcd;')"> </div>
+  <div class="color-card" style="background-color: #fdffcd;" onclick="copyColor('background-color: #fdffcd;')"> </div>
+  <div class="color-card" style="background-color: #ffcbcb;" onclick="copyColor('background-color: #ffcbcb;')"> </div>
+  <div class="color-card" style="background-color: #ffb5b5;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #ffebbb;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #bbe4e9;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #79c2d0;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #ffcbcb;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #fcfefe;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #00bbf0;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f70776;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #bae8e8;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #ffe9e3;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #7c73e6;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #d59bf6;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #8ef6e4;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #8dc6ff;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #8594e4;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #e46161;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f5c7f7;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #fdc57b;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #9cd3d3;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #e84a5f;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #fecea8;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #cadefc;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #defcf9;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #cca8e9;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #d5eeff;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #93e4c1;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f67280;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #afc5ff;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #faf5e4;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #8ed2c9;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #90f6d7;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #83cee0;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #a4fbe3;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #ec729c;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f0d78c;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #8bffff;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #8ed6ff;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #cf7979;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f83e4b;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #72e8e1;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f5e1da;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #6d42c7;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #72e8e1;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #f27370;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #876464;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #5be7a9;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #fc3a52;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #acdcee;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <!-- <div class="color-card" style="background-color: #d9f2ff;" onclick="copyColor('background-color: #2ecc71;')"> </div> -->
+  <div class="color-card" style="background-color: #FFFFFF;" onclick="copyColor('background-color: #FFFFFF;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #3498db;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #e74c3c;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #3498db;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #e74c3c;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #3498db;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #e74c3c;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #3498db;" onclick="copyColor('background-color: #3498db;')"> </div>
+  <div class="color-card" style="background-color: #e74c3c;" onclick="copyColor('background-color: #e74c3c;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <div class="color-card" style="background-color: #2ecc71;" onclick="copyColor('background-color: #2ecc71;')"> </div>
+  <img src="images/img-1.jpg" alt="">
+  <img src="images/img-12.jpg" alt="">
+  <img src="images/img-13.jpg" alt="">
+  <img src="images/img-14.jpg" alt="">
+  <img src="images/img-15.jpg" alt="">
+  <img src="images/img-16.jpg" alt="">
+  <a href="images/manu.apk">asvddsfdsx</a>
+  
+  <!-- Add more color boxes as needed -->
+
+</div>
+
+  <script>
+    function copyColor(color) {
+      const textarea = document.createElement('textarea');
+      textarea.value = color;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+    }
+
+    
+  </script>
+</body>
+</html>
+
+
